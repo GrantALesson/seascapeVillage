@@ -1,0 +1,705 @@
+ /*---------ALL----------*/
+*
+{
+	font-family: 'Montserrat', sans-serif;
+}
+
+a, a:hover
+{
+	color: teal;
+	text-decoration: none;
+}
+/*---END OF ALL STYLE---*/
+/*=========================================================================*/
+/*---------NAVBAR----------*/
+#navbarDropdown
+{
+	cursor: pointer;
+}
+#applink
+{
+	text-decoration: none;
+	color: black;
+	margin-bottom: 15px;
+	margin-right: 15px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#applink:hover
+{
+	color: teal;
+}
+
+/*---END OF NAVBAR STYLE---*/
+/*=========================================================================*/
+/*---------LOGIN----------*/
+#emailid
+{
+	width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#pwdid
+{
+	width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#loginid
+{
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+#loginid:hover
+{
+	opacity: 0.8;
+}
+
+#reglink
+{
+	text-decoration: none;
+	color: teal;
+}
+#helpblock
+{
+	color: red;
+	font-size: 15px;
+	font-style: italic;
+}
+/*----END OF LOGIN STYLE---*/
+/*=========================================================================*/
+/*---------FOOTER----------*/
+footer
+{
+	background-color: #1a1a1a;
+	padding-left: 65px;
+	padding-bottom: 80px;
+	color: teal;
+	font-size: 15px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#hfooter
+{
+	margin-top: 85px;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#footerabt
+{
+	color: gray;
+	font-family: 'Montserrat', sans-serif;
+}
+#footerphone
+{
+	margin-top: 15px;
+}
+/*---END OF FOOTER STYLE---*/
+/*=========================================================================*/
+/*   RECOMMENDED FOR YOU   */
+#homeheader2
+{
+	color: teal;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 35px;
+}
+#hometable
+{
+	margin-bottom: 145px;
+}
+/*     END OF RECOMMEND   */
+/*==================================================*/
+/*        RESTO PICS      */
+#zoom
+{
+	position: relative;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+
+	height: 230px;
+	width: 160px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 12px;
+
+	-webkit-transition: all 0.9s ease;
+	-moz-transition: all 0.9s ease;
+	-o-transition: all 0.9s ease;
+	-ms-transition: all 0.9s ease;
+	transition: all 0.9s ease;
+}
+
+#zoom:hover
+{
+	transform: scale(1.1);
+}
+
+#zoomimg
+{
+	width: 350px;
+	height: 250px;
+	margin: 25px;
+	opacity: 0.8;
+}
+
+#zoomlbl
+{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 25px;
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+/*   END OF RESTO PICS   */
+/*==================================================*/
+/*     OTHER SERVICES    */
+#otherserv
+{
+	margin-top: 150px;
+	font-family: 'Montserrat', sans-serif;
+}
+/* END OF OTHER SERVICES */
+/*------END OF HOME STYLE-----*/
+/*=========================================================================*/
+/*---------ABOUT PAGE---------*/
+#headerabt
+{
+	margin-top: 90px;
+	margin-left: 45px;
+	margin-right: 45px;
+	font-size: 25px;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+
+#contentabt
+{
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 15px;
+	margin-bottom: 25px;
+	margin-left: 45px;
+	color: white;
+}
+
+#art
+{
+	background-color: teal;
+}
+
+#videoabt
+{
+	margin-top: 50px; 
+}
+
+#abtimage
+{
+	width: 100%; 
+	height: 600px;
+}
+
+#bts
+{
+	font-family: 'Patrick Hand SC', cursive;
+	margin-top: 55px;
+	color: teal;
+}
+/*------END OF ABOUT STYLE-----*/
+/*=========================================================================*/
+/*---------SIGNUP PAGE---------*/
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button 
+{ 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+#signcontain
+{
+	margin-bottom: 110px;
+}
+
+#reglbl
+{
+	background-color: teal;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#registerlabel
+{
+	font-weight: bold; 
+	color: teal; 
+	font-size: 40px;
+}
+
+#reglbl h3
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 55px;
+	font-weight: bold;
+	color: white;
+	margin-top: 100px;
+	margin-bottom: 15px;
+	margin-left: 55px;
+}
+
+#reglbl p
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	color: white;
+	margin-bottom: 295px;
+	margin-left: 57px; 
+}
+
+#headersfrm
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#accsfrm
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	margin-top: 100px;
+}
+
+#persofrm
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	margin-top: 100px;
+}
+/*------END OF SIGNUP STYLE-----*/
+/*=========================================================================*/
+/*---------RESTO PAGE---------*/
+#fheader
+{
+	margin-top: 50px;
+}
+
+#fcontent
+{
+	margin-bottom: 50px;
+}
+/*------END OF RESTO STYLE-----*/
+/*=========================================================================*/
+/*--------PROFILE PAGE---------*/
+#profile
+{
+	margin-top: 100px;
+	margin-bottom: 200px;
+}
+
+#profile h2
+{
+	font-size: 90px;
+}
+
+#profile h4
+{
+	font-size: 18px;
+}
+
+#profile button
+{
+	margin-top: 15px;
+}
+
+/*----END OF PROFILE STYLE-----*/
+/*=========================================================================*/
+/*--------SETTINGS PAGE---------*/
+#settings
+{
+	margin-bottom: 150px;
+}
+
+.settingscont a
+{
+	color: teal;
+}
+
+.settingscont .active
+{
+	background-color: teal;
+	color: white;
+}
+
+#editbtn button
+{
+	color: teal;
+	text-decoration: none;
+}
+
+#settingslabel
+{
+	margin-top: 10px
+}
+/*----END OF SETTINGS STYLE-----*/
+/*=========================================================================*/
+/*--------MYBOOKINGS PAGE---------*/
+.table-hover
+{
+	margin-top: 35px;
+	margin-bottom: 150px;
+}
+
+/*----END OF SETTINGS STYLE-----*/
+/*=========================================================================*/
+/*=========================================================================*/
+/*--------LOGIN PAGE---------*/
+#login
+{
+	margin-left: 150px;
+	margin-right: 150px;
+}
+
+#login a
+{
+	text-decoration: none;
+	color: teal;
+}
+
+#logimg
+{
+	width: 150px;
+	height: 95px;
+}
+/*----END OF LOGIN STYLE-----*/
+/*=========================================================================*/
+/*--------RESTAURANT PAGE---------*/
+#fltrs
+{
+	padding-top: 25px;
+	padding-bottom: 35px;
+	margin-bottom: 85px;
+}
+.restoheader
+{
+	font-size: 18px;
+	font-weight: bold;
+	margin-left: 100px;
+}
+
+#restoicon
+{
+	margin-right: 25px;
+}
+
+#restoimg
+{
+	width: 115px;
+	height: 115px;
+}
+
+#cardresto
+{
+	width: 100%;
+	padding-left: 15px; 
+	padding-top: 35px;
+	padding-bottom: 25px;
+	margin-bottom: 25px;
+}
+
+#filterin
+{
+	width: 200px;
+}
+
+.restolbl
+{
+	margin-left: 15px;
+}
+
+.restocont
+{
+	margin-left: 85px;
+}
+.call
+{
+	width: 100%;
+	margin-top: 15px;
+}
+
+#search input[type="text"]
+{
+	width: 238px;
+	margin-left: 15px;
+	margin-bottom: 25px;
+	font-family: 'Montserrat', sans-serif;
+	box-sizing: border-box;
+	border: none;
+	border-bottom: 2px solid teal;
+	box-shadow: none;
+}
+
+#search input[type="submit"]
+{
+	margin-bottom: 25px;
+	margin-left: 5px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/*----END OF RESTAURANT STYLE-----*/
+/*=========================================================================*/
+/*--------BOOKINGINFO PAGE---------*/
+.bookcont
+{
+	margin-left: 188px;
+}
+
+#bookingdetailh
+{
+	margin-top: 35px;
+	margin-bottom: 15px;
+}
+
+#bookingdetailc
+{
+	margin-left: 20px;
+	margin-right: 15px;
+}
+
+#booknow
+{
+	margin-left: 20px;
+	margin-right: 815px;
+	margin-top: 25px;
+}
+
+/*----END OF BOOKINGINFO STYLE-----*/
+/*=========================================================================*/
+/*--------CART PAGE---------*/
+.breadcrumb
+{
+	text-decoration: none;
+	color: teal;
+	background-color: white;
+	margin-left: 100px;
+}
+
+.arr-right .breadcrumb-item+.breadcrumb-item::before
+{
+	content: " • ";
+	color: teal;
+	font-size: 10px;
+
+}
+
+#cartpic img
+{
+	height: 95px; 
+	width: 65px;
+}
+
+#tablecart
+{
+	font-family: 'Montserrat', sans-serif;
+}
+
+#cartqty input
+{
+	width: 40px;
+	text-align: center;
+	margin-top: 5px;
+}
+
+#bookdetails, select
+{
+	font-family: 'Montserrat', sans-serif;
+}
+/*----END OF CART STYLE-----*/
+/*=========================================================================*/
+/*--------RESTOINFO PAGE---------*/
+#pills-tab
+{
+	color: teal;
+}
+
+#restoinfophone
+{
+	color: gray;
+}
+
+#details-nav-content
+{
+	margin-bottom: 150px;
+}
+
+.carousel-inner
+{
+	width: 100%;
+	height: 50% !important;
+}
+
+.carousel-item img
+{
+	width: 500px !important;
+	margin-left: 300px;
+}
+
+#arrows
+{
+	background-color: #f3f3f3;
+}
+/*----END OF RESTOINFO STYLE-----*/
+/*=========================================================================*/
+/*--------BOOKNOW PAGE---------*/
+#menuitems img
+{
+	height: 230px;
+	width: 170px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 12px;
+
+	-webkit-transition: all 0.9s ease;
+	-moz-transition: all 0.9s ease;
+	-o-transition: all 0.9s ease;
+	-ms-transition: all 0.9s ease;
+	transition: all 0.9s ease;
+}
+#menuitems img:hover
+{
+	transform: scale(1.1);
+	margin-right: 50px;
+}
+#menuitems
+{
+	margin-left: 50px;
+	margin-bottom: 20px;
+	border: 2px solid white;
+}
+
+#menuitems:hover
+{
+	cursor: pointer;
+}
+
+#menuitemtxt
+{
+	text-align: center;
+}
+
+#cartlogo img
+{
+	margin-right: 10px; 
+	margin-bottom: 15px;
+}
+#cartlogo label
+{
+	font-size: 23px; 
+	margin-top: 5px;
+}
+#cartlogo label:hover
+{
+	cursor: pointer;
+}
+
+#categoryicon
+{
+	margin-right: 25px;
+}
+
+#categorylbl
+{
+	margin-left: 40px;
+	margin-bottom: 15px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+}
+#productimg img
+{
+	width: 220px;
+	height: 300px;
+}
+#ccount
+{
+	width: 45px;
+}
+.modaltxt
+{
+	width: 40px; 
+	text-align: center;
+}
+#booknowrow
+{
+	margin-bottom: 50px;
+}
+#orderbyselect
+{
+	width: 150px;
+}
+
+/*----END OF BOOKNOW STYLE-----*/
+/*=========================================================================*/
+/*--------ADD RESTO PAGE---------*/
+#addrestocard
+{
+	width: 800px;
+}
+
+#alcohol, #pay, #service, #cuisine, #addtime
+{
+	margin-left: 25px;
+}
+
+#btnaddresto
+{
+	width: 800px;
+	margin-top: 25px;
+	margin-bottom: 155px;
+}
+
+#lblrestoheader
+{
+	margin-top: 45px;
+	margin-bottom: 5px;
+}
+ul#cuisinelist
+{
+	padding-left: 5px;
+	margin: 0px;
+}
+ul#cuisinelist li 
+{
+    display:inline;
+}
+#cuisineadd input
+{
+	display: none;
+	height: 31px;
+	width: 100px;
+}
+#cuisinefooter
+{
+	display: none;
+}
+#infodate
+{
+	width: 130px;
+}
+/*----END OF BOOKINFO STYLE-----*/
+/*=========================================================================*/
